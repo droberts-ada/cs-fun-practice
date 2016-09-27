@@ -6,12 +6,14 @@ array indexing and loops to solve the problems. You should **not** utilize
 any [Ruby Array methods](https://ruby-doc.org/core-2.2.0/Array.html), with
 the exception of `<<` and `[]`.
 
-- e.g. `array.first` ==> NOT OK
-- e.g. `puts array[0]` ==> OK
-- e.g. `array.insert(i, array2[loc)` ==> NOT OK
-- e.g. `array[i] = array2[loc]` ==> OK
-- e.g. `array.pop` ==> NOT OK
-- e.g. `array.uniq` ==> NOT OK ;) See problem 3 and 4.
+e.g.
+
+- `array.first` ==> NOT OK
+- `puts array[0]` ==> OK
+- `array.insert(i, array2[loc)` ==> NOT OK
+- `array[i] = array2[loc]` ==> OK
+- `array.pop` ==> NOT OK
+- `array.uniq` ==> NOT OK ;) See problem 3 and 4.
 
 ## Problem #1
 Write a method named `print_array` that accepts an array of integers as a parameter
