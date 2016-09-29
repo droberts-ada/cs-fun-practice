@@ -4,16 +4,20 @@ For each of the following problems, you should write a single method to solve
 the problem. You will be working with arrays in each problem, but should use
 array indexing and loops to solve the problems. You should **not** utilize
 any [Ruby Array methods](https://ruby-doc.org/core-2.2.0/Array.html), with
-the exception of `<<` and `[]`.
+the exception of `<<`, `[]`, and `.length`.
 
-e.g.
+e.g. NOT OK
 
 - `array.first` ==> NOT OK
-- `puts array[0]` ==> OK
-- `array.insert(i, array2[loc)` ==> NOT OK
-- `array[i] = array2[loc]` ==> OK
+- `array.insert(i, array2[loc])` ==> NOT OK
 - `array.pop` ==> NOT OK
 - `array.uniq` ==> NOT OK ;) See problem 3 and 4.
+
+e.g. OK
+
+- `array[i] = array2[loc]` ==> OK
+- `puts array[0]` ==> OK
+- `array[-1]` ==> OK
 
 ## Problem #1
 Write a method named `print_array` that accepts an array of integers as a parameter
